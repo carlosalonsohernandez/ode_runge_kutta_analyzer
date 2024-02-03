@@ -43,9 +43,6 @@ for xval in x:
     y.append(pre_y)
     n += 1
 
-# Your existing x and y data
-
-
 # New set of data to compare
 def model(y,x):
     return y / (pow(math.e, x) - 1)
